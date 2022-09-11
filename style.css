@@ -42,6 +42,22 @@ h1{
     text-shadow: .1vw .2vh 1vw;
 
 }
+@media (max-width:576px) {
+    .clock span{
+        height: 7vh;
+    }
+}
+@media (min-width:890px) {
+    .clock span{
+        height: 13vh;
+        width: 11vw;
+    }
+    .clock .text{
+        height: 5vh;
+        text-align: center;
+    }
+    
+}
 .clock .text {
     height:3vh ;
     font-size: 1.9vw;
